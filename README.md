@@ -41,7 +41,7 @@ now sync
 
 Second clone this twrp tree
 
-```git clone https://github.com/SmallPP420/FixedTree.git device/nokia/Wasp```
+```git clone https://github.com/SmallPP420/new-test-9.git -b TWRP-9.0 device/nokia/Wasp```
 
 Now build
 
