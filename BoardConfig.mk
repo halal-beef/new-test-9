@@ -103,6 +103,21 @@ TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/bootdevice/by-name/userdata"
 TW_CRYPTO_MNT_POINT := "/data"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,barrier=0,data=ordered"
 
+#SHRP
+SHRP_DARK := true
+SHRP_NOTCH := true
+SHRP_DEVICE_CODE := WSP_sprout
+SHRP_PATH := device/hmd/WSP_sprout
+SHRP_MAINTAINER := areallydumbperson
+SHRP_DEVICE_TYPE := A/B
+#SHRP_REC := /dev/block/platform/bootdevice/by-name/recovery
+SHRP_FLASH := 0
+SHRP_REC_TYPE := Normal
+SHRP_SKIP_DEFAULT_ADDON_4 := true
+SHRP_INTERNAL := /sdcard
+SHRP_EXTERNAL := /external_sd
+SHRP_OTG := /usb_otg
+
 # Storage
 TW_HAS_MTP := true
 TW_MTP_DEVICE := /dev/mtp_usb
