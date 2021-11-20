@@ -22,6 +22,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_PATCH_AVB20=1
 	#Screen Settings Tagged Because It Wont Scale Properly
 	#export OF_SCREEN_H=1520
+	export OF_STATUS_H=65
 	export OF_USE_MAGISKBOOT=1
 	export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
 	export OF_DONT_PATCH_ENCRYPTED_DEVICE=1
@@ -44,13 +45,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_USE_NEW_MAGISKBOOT=1
 	export OF_SKIP_MULTIUSER_FOLDERS_BACKUP=1
    	export FOX_BUGGED_AOSP_ARB_WORKAROUND="1510672800"; # Tue Nov 14 15:20:00 GMT 2017
-
-        # use system (ROM) fingerprint where available
-        #export OF_USE_SYSTEM_FINGERPRINT=1
-
-	# OTA for custom ROMs
-        #export OF_SUPPORT_ALL_BLOCK_OTA_UPDATES=1
-        #export OF_FIX_OTA_UPDATE_MANUAL_FLASH_ERROR=1
 
         # -- add settings for R11 --
         export FOX_R11=1
