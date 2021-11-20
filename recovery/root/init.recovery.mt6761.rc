@@ -1,5 +1,5 @@
 on init
-    symlink /system_root/system /system
+    #symlink /system_root/system /system
 
     mkdir /config
     mount configfs none /config
