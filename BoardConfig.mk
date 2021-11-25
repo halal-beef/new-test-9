@@ -35,7 +35,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x11a88000 --tags_offset 0x07808000   # --ramdisk_offset 0x03f88000 --tags_offset 0x0df88000
 BOARD_KERNEL_IMAGE_NAME := zImage
 
-TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
+#TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 TARGET_RECOVERY_INITRC := $(LOCAL_PATH)/recovery/root/init.recovery.mt6761.rc
 
 
