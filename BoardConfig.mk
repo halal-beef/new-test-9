@@ -130,7 +130,6 @@ TW_NO_BATT_PERCENT := false
 TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_NTFS_3G := true     
 TW_INCLUDE_FUSE_EXFAT := true
-TW_NO_SCREEN_TIMEOUT := true
 TWRP_INCLUDE_LOGCAT := true
 TW_INCLUDE_FB2PNG := true                     # Include Screenshot Support 
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
