@@ -93,6 +93,9 @@ TW_NO_USB_STORAGE := false
 #TW_CRYPTO_MNT_POINT := "/data"
 #TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,formattable,data=ordered"
 
+TW_Y_OFFSET := 60
+TW_H_OFFSET := -60
+
 # Crypto
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
